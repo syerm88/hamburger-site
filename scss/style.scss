@@ -2,7 +2,7 @@
 @use "./Foundation/base";
 @use "./Foundation/reset";
 
-@use "variable" as v;
+@use "./Foundation/variable" as v;
 
 body {
   color: v.$font-color;
