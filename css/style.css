@@ -32,10 +32,7 @@ object {
 }
 
 a {
-  color: #0066c0;
   text-decoration: underline;
-  transition: 0.4s;
   text-decoration: none;
-  background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */

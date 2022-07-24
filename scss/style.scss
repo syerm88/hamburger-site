@@ -1,4 +1,14 @@
 //foundation
+//----------------------------
 @use "./Foundation/base";
 @use "./Foundation/reset";
 
+//layout
+//----------------------------
+@use "./layout/header";
+
+//object
+//----------------------------
+//component
+//----------------------------
+@use "./object/component/inner";
