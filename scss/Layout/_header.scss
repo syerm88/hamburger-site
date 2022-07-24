@@ -1,4 +1,14 @@
+@use "./../foundation/variable" as *;
+
 .l-header {
     background-color: $color-header-bg;
     z-index: 1;
+
+    &__content {
+        width: 375px;
+        height: 217px;
+    }
+    &__logo {
+        
+    }
 }

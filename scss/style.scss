@@ -6,9 +6,12 @@
 //layout
 //----------------------------
 @use "./Layout/header";
+@use "./Layout/sidebar";
+@use "./layout/footer";
 
 //object
 //----------------------------
 //component
 //----------------------------
 @use "./object/component/inner";
+@use "./object/component/button";

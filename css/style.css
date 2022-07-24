@@ -35,4 +35,18 @@ a {
   text-decoration: underline;
   text-decoration: none;
 }
+
+.l-header {
+  background-color: #FFF7EF;
+  z-index: 1;
+}
+.l-header__content {
+  width: 375px;
+  height: 217px;
+}
+.c-inner {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
