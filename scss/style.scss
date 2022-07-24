@@ -2,12 +2,3 @@
 @use "./Foundation/base";
 @use "./Foundation/reset";
 
-@use "./Foundation/variable" as v;
-
-body {
-  color: v.$font-color;
-  background-color: v.$bg-color;
-}
-.hoge {
-  transform: translateX(50px);
-}

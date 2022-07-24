@@ -38,13 +38,4 @@ a {
   text-decoration: none;
   background-attachment: fixed;
 }
-
-body {
-  color: #000;
-  background-color: #fff;
-}
-
-.hoge {
-  transform: translateX(50px);
-}
 /*# sourceMappingURL=style.css.map */
