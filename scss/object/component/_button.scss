@@ -1,5 +1,9 @@
 @use "./../../foundation/variable" as *;
 
 .c-button {
-    font-size: 3.13rem;
+    position: absolute;
+    margin-left: auto;
+    font-size: 20px;
+    padding: 10px;
+    right: 0;
 }
