@@ -7,13 +7,14 @@
     &__content {
         width: 375px;
         height: 217px;
-    
+    }
     &__logo {
-    position: relative;
     font-size: 40px;
     font-weight: bold;
-    top: 50px;
+    top: 40px;
     text-align: center;
+    color: $color-header;
+    padding-bottom: 38px;
+    font-family: "Roboto";
     }
-}
 }

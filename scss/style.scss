@@ -2,6 +2,7 @@
 //----------------------------
 @use "./Foundation/base";
 @use "./Foundation/reset";
+@use "./Foundation/variable";
 
 //layout
 //----------------------------
@@ -10,8 +11,15 @@
 @use "./layout/footer";
 
 //object
-//----------------------------
 //component
 //----------------------------
 @use "./object/component/inner";
 @use "./object/component/button";
+@use "./object/component/title";
+//project
+//----------------------------
+@use "./object/project/form";
+@use "./object/project/input";
+@use "./object/project/fv";
+@use "./object/project/section";
+@use "./object/project/map";

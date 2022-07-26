@@ -44,9 +44,77 @@ a {
   width: 375px;
   height: 217px;
 }
-.c-inner {
-  max-width: 1220px;
-  margin: 0 auto;
+.l-header__logo {
+  font-size: 40px;
+  font-weight: bold;
+  top: 40px;
+  text-align: center;
+  color: #707070;
+  padding-bottom: 38px;
+  font-family: "Roboto";
+}
+
+.c-button {
+  margin-left: auto;
+  font-size: 20px;
   padding: 10px;
+  right: 0;
+  font-family: "Roboto";
+}
+
+.p-fv__title {
+  position: absolute;
+  top: 119px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  padding: left;
+  padding-left: 25px;
+}
+
+.p-map__title {
+  position: absolute;
+  font-size: 3rem;
+  /* color: #fff; */
+  font-weight: bold;
+  padding: 30px;
+}
+
+.p-seach-form {
+  display: flex;
+}
+
+.p-seach-form-keyword {
+  border: solid 1px;
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 24px;
+  margin-right: 10px;
+  color: #707070;
+  background-color: #FFF;
+}
+
+.p-button__seach {
+  border: solid 1px;
+  width: 50px;
+  border-radius: 5px;
+  color: #707070;
+  background-color: #F2EDE9;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.p-fv {
+  position: relative;
+}
+
+.c-section {
+  margin: 15px;
+}
+
+.p-map {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
