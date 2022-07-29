@@ -16,10 +16,14 @@
 @use "./object/component/inner";
 @use "./object/component/button";
 @use "./object/component/title";
+@use "./object/component/text";
+@use "./object/component/section";
+@use "./object/component/link";
+@use "./object/component/copy";
+@use "./object/component/layer";
 //project
 //----------------------------
 @use "./object/project/form";
 @use "./object/project/input";
 @use "./object/project/fv";
-@use "./object/project/section";
 @use "./object/project/map";

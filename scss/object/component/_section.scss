@@ -1,0 +1,26 @@
+@use "./../../foundation/variable" as *;
+
+.c-section__TakeOut {
+    background-image: url(./../../../img/front-page-main02.png); 
+    background-size: cover;
+    height: auto;
+    width: 335px;
+    margin: 15px;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.c-section__EatIn {
+    background-image: url(./../../../img/front-page-main03-sp.jpg); 
+    background-size: cover;
+    height: auto;
+    width: 335px;
+    margin: 15px;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}

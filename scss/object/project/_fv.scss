@@ -2,4 +2,8 @@
 
 .p-fv {
     position: relative;
+    max-width: 375px;
+}
+.p-fv img {
+    object-fit: cover;
 }

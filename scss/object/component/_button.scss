@@ -1,9 +1,11 @@
 @use "./../../foundation/variable" as *;
 
 .c-button {
+    display: flex;
     margin-left: auto;
     font-size: 20px;
-    padding: 10px;
+    padding-top: 14px;
+    padding-right: 16px;
     right: 0;
     font-family: "Roboto";
 }

@@ -10,14 +10,38 @@
     padding-left: 25px;
 }
 
-.c-section__title {
-    // position: absolute;
+.c-map__title {
+    position: absolute;
+    top: 10px;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 30px 0;
+    z-index: 15;
+    h2::after{
+        position: absolute;
+        content: "";
+        width: 70px;
+        height: 2px;
+        background-color: #fff;
+        top: 102px;
+        left: 5px;
+    }
 }
 
-.p-map__title {
-    position: absolute;
-    font-size: 3rem;
-    /* color: #fff; */
-    font-weight: bold;
-    padding: 30px;
+.c-section__title {
+    font-size: 4.1rem;
+    font-family: "Roboto";
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 15px;
+    &::after{
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        content: "";
+        width: 33px;
+        height: 4px;
+        background-color: #fff;
+     }
 }

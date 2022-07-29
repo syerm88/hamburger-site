@@ -1,0 +1,19 @@
+@use "./../../foundation/variable" as *;
+
+.c-link {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #fff;
+    padding: 40px 63px 34px 62px ;
+    position: relative;
+}
+.c-link__shop::after{
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 20px;
+        top: -2px;
+        right: 5px;
+        display: inline-block;
+    } 
