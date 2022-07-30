@@ -214,6 +214,7 @@ a {
 
 .p-seach-form-keyword {
   display: flex;
+  align-items: center;
   border: solid 1px;
   width: 230px;
   height: 46px;
@@ -248,11 +249,13 @@ input {
 .p-fv {
   position: relative;
   max-width: 375px;
+  height: 285px;
 }
 
 .p-fv img {
   -o-object-fit: cover;
      object-fit: cover;
+  height: inherit;
 }
 
 .p-map {
