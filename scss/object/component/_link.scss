@@ -4,16 +4,20 @@
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    color: #fff;
+    color: $color-white;
     padding: 40px 63px 34px 62px ;
     position: relative;
-}
-.c-link__shop::after{
+    &__shop {
+        position: relative;
+    }
+    &__shop::after{
         position: absolute;
         content: "";
-        width: 3px;
+        width: 2px;
         height: 20px;
-        top: -2px;
-        right: 5px;
+        top: 5px;
+        right: -18px;
         display: inline-block;
+        background-color: $color-white;
     } 
+}

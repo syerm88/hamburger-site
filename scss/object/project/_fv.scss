@@ -4,8 +4,8 @@
     position: relative;
     max-width: 375px;
     height: 285px;
-}
-.p-fv img {
-    object-fit: cover;
-    height: inherit;
+    img {
+        object-fit: cover;
+        height: inherit;
+    }
 }

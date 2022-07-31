@@ -1,11 +1,12 @@
 @use "./../../foundation/variable" as *;
 
 .p-button__seach {
+    line-height: 2;
     border: solid 1px;
     width: 78px;
     border-radius: 5px;
-    color: #707070;
-    background-color: #F2EDE9;
+    color: $color-gray;
+    background-color: $color-lightbrowm;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;

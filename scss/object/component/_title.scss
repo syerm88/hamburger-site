@@ -5,7 +5,7 @@
     top: 119px;
     font-size: 3rem;
     font-weight: bold;
-    color: #fff;
+    color: $color-white;
     padding: left;
     padding-left: 25px;
 }
@@ -23,7 +23,7 @@
         content: "";
         width: 70px;
         height: 2px;
-        background-color: #fff;
+        background-color: $color-white;
         top: 102px;
         left: 5px;
     }
@@ -32,7 +32,7 @@
 .c-section__title {
     font-size: 4.1rem;
     font-family: "Roboto";
-    color: #fff;
+    color: $color-white;
     margin-top: 11px;
     margin-left: 15px;
     &::after{
@@ -42,6 +42,6 @@
         content: "";
         width: 33px;
         height: 4px;
-        background-color: #fff;
+        background-color: $color-white;
      }
 }

@@ -69,7 +69,7 @@ a {
   top: 119px;
   font-size: 3rem;
   font-weight: bold;
-  color: #fff;
+  color: white;
   padding: left;
   padding-left: 25px;
 }
@@ -88,7 +88,7 @@ a {
   content: "";
   width: 70px;
   height: 2px;
-  background-color: #fff;
+  background-color: white;
   top: 102px;
   left: 5px;
 }
@@ -96,7 +96,7 @@ a {
 .c-section__title {
   font-size: 4.1rem;
   font-family: "Roboto";
-  color: #fff;
+  color: white;
   margin-top: 11px;
   margin-left: 15px;
 }
@@ -107,7 +107,7 @@ a {
   content: "";
   width: 33px;
   height: 4px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .c-text {
@@ -118,20 +118,17 @@ a {
   padding-top: 7px;
   padding-left: 10px;
 }
-
 .c-text__content {
   width: 100%;
   box-sizing: border-box;
 }
-
 .c-text__title {
   font-size: 2.2rem;
 }
-
 .c-text__map {
   position: absolute;
   top: 130px;
-  color: #fff;
+  color: white;
   z-index: 15;
   line-height: 2;
   padding-right: 40px;
@@ -168,23 +165,26 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
-  color: #fff;
+  color: white;
   padding: 40px 63px 34px 62px;
   position: relative;
 }
-
+.c-link__shop {
+  position: relative;
+}
 .c-link__shop::after {
   position: absolute;
   content: "";
-  width: 3px;
+  width: 2px;
   height: 20px;
-  top: -2px;
-  right: 5px;
+  top: 5px;
+  right: -18px;
   display: inline-block;
+  background-color: white;
 }
 
 .c-copy {
-  color: #fff;
+  color: white;
   font-size: 1.4rem;
   display: flex;
   justify-content: center;
@@ -222,7 +222,7 @@ a {
   margin-left: 24px;
   margin-right: 10px;
   color: #707070;
-  background-color: #FFF;
+  background-color: white;
 }
 
 .fa-lg {
@@ -232,6 +232,7 @@ a {
 }
 
 .p-button__seach {
+  line-height: 2;
   border: solid 1px;
   width: 78px;
   border-radius: 5px;
@@ -251,7 +252,6 @@ input {
   max-width: 375px;
   height: 285px;
 }
-
 .p-fv img {
   -o-object-fit: cover;
      object-fit: cover;

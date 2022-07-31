@@ -7,22 +7,20 @@
     margin: 15px;
     padding-top: 7px;
     padding-left: 10px;
-}
-.c-text__content {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.c-text__title {
-    font-size: 2.2rem;
-}
-
-.c-text__map {
-    position: absolute;
-    top: 130px;
-    color: #fff;
-    z-index: 15;
-    line-height: 2;
-    padding-right: 40px;
-    overflow: hidden;
+    &__content {
+       width: 100%;
+       box-sizing: border-box;
+   }
+   &__title {
+       font-size: 2.2rem;
+   }
+   &__map {
+       position: absolute;
+       top: 130px;
+       color: $color-white;
+       z-index: 15;
+       line-height: 2;
+       padding-right: 40px;
+       overflow: hidden;
+    } 
 }

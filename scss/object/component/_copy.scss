@@ -1,7 +1,7 @@
 @use "./../../foundation/variable" as *;
 
 .c-copy {
-    color: #fff;
+    color: $color-white;
     font-size: 1.4rem;
     display: flex;
     justify-content: center;
