@@ -195,7 +195,6 @@ a {
   top: 0;
   width: 100%;
   height: 55%;
-  background-color: rgba(255, 255, 255, 0.6);
   z-index: 10;
 }
 
@@ -225,8 +224,8 @@ a {
   background-color: white;
 }
 
-.fa-lg {
-  font-size: 2em;
+.fa-size {
+  font-size: 3rem;
   padding: 10px;
   color: #707070;
 }
@@ -249,18 +248,19 @@ input {
 
 .p-fv {
   position: relative;
-  max-width: 375px;
   height: 285px;
 }
 .p-fv img {
   -o-object-fit: cover;
      object-fit: cover;
   height: inherit;
+  width: 100%;
 }
 
 .p-map {
   position: relative;
   margin-top: 50px;
   width: 375px;
+  background-color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

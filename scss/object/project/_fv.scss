@@ -2,10 +2,11 @@
 
 .p-fv {
     position: relative;
-    max-width: 375px;
+    // max-width: 375px;
     height: 285px;
     img {
         object-fit: cover;
         height: inherit;
+        width: 100%;
     }
 }
