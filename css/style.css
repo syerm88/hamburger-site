@@ -8,7 +8,7 @@ html {
 body {
   color: #333333;
   font-size: 1.6rem;
-  font-family: "M+ P Type-1 (basic latin) Regular";
+  font-family: "M+PLUS+1p";
   min-width: 375px;
   width: 100%;
   overflow-x: hidden;
@@ -32,7 +32,6 @@ a {
   z-index: 1;
 }
 .l-header__content {
-  width: 375px;
   height: 217px;
 }
 .l-header__logo {
@@ -110,6 +109,11 @@ a {
   background-color: white;
 }
 
+@media (min-width: 768px) {
+  .p-fv__title {
+    display: none;
+  }
+}
 .c-text {
   width: 305px;
   height: 124px;
@@ -230,6 +234,14 @@ a {
   color: #707070;
 }
 
+@media (min-width: 768px) {
+  .p-seach-form-keyword {
+    width: 396px;
+  }
+  .p-seach-form {
+    justify-content: center;
+  }
+}
 .p-button__seach {
   line-height: 2;
   border: solid 1px;
@@ -246,6 +258,12 @@ input {
   vertical-align: -webkit-baseline-middle;
 }
 
+@media (min-width: 768px) {
+  .p-button__seach {
+    width: 136px;
+    text-align: center;
+  }
+}
 .p-fv {
   position: relative;
   height: 285px;
@@ -262,5 +280,11 @@ input {
   margin-top: 50px;
   width: 375px;
   background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .p-theme {
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */

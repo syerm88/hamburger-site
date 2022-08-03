@@ -45,3 +45,10 @@
         background-color: $color-white;
      }
 }
+
+@include breakpoint(tablet) {
+    .p-fv__title {
+        display: none;
+    }
+}
+

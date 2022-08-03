@@ -20,3 +20,12 @@
     padding: 10px;
     color: $color-gray;
 }
+
+@include breakpoint(tablet) {
+    .p-seach-form-keyword {
+        width: 396px;
+    }
+    .p-seach-form {
+        justify-content: center;
+    }
+}

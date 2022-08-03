@@ -15,3 +15,10 @@
 input {
     vertical-align: -webkit-baseline-middle;
 }
+
+@include breakpoint(tablet) {
+    .p-button__seach {
+    width: 136px;
+    text-align: center;
+    }
+}
