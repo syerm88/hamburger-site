@@ -1,7 +1,3 @@
 @use "./../../foundation/variable" as *;
 
-@include breakpoint(tablet) {
-    .p-theme {
-        display: flex;
-    }
-}
+

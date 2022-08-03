@@ -1,5 +1,11 @@
 @use "./../../foundation/variable" as *;
 
-.c-map__inner {
+.c-inner__map {
     margin: 0 40px;
+}
+
+@include breakpoint(tablet) {
+    .c-inner__theme {
+        display: flex;
+    }
 }

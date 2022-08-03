@@ -1,6 +1,6 @@
 @use "./../../foundation/variable" as *;
 
-.p-fv__title {
+.c-title__fv {
     position: absolute;
     top: 119px;
     font-size: 3rem;
@@ -10,7 +10,7 @@
     padding-left: 25px;
 }
 
-.c-map__title {
+.c-title__map {
     position: absolute;
     top: 10px;
     font-size: 3rem;
@@ -29,7 +29,7 @@
     }
 }
 
-.c-section__title {
+.c-title__section {
     font-size: 4.1rem;
     font-family: "Roboto";
     color: $color-white;

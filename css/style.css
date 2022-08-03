@@ -49,10 +49,15 @@ a {
   height: 150px;
 }
 
-.c-map__inner {
+.c-inner__map {
   margin: 0 40px;
 }
 
+@media (min-width: 768px) {
+  .c-inner__theme {
+    display: flex;
+  }
+}
 .c-button {
   display: flex;
   margin-left: auto;
@@ -63,7 +68,7 @@ a {
   font-family: "Roboto";
 }
 
-.p-fv__title {
+.c-title__fv {
   position: absolute;
   top: 119px;
   font-size: 3rem;
@@ -73,7 +78,7 @@ a {
   padding-left: 25px;
 }
 
-.c-map__title {
+.c-title__map {
   position: absolute;
   top: 10px;
   font-size: 3rem;
@@ -82,7 +87,7 @@ a {
   padding: 30px 0;
   z-index: 15;
 }
-.c-map__title h2::after {
+.c-title__map h2::after {
   position: absolute;
   content: "";
   width: 70px;
@@ -92,14 +97,14 @@ a {
   left: 5px;
 }
 
-.c-section__title {
+.c-title__section {
   font-size: 4.1rem;
   font-family: "Roboto";
   color: white;
   margin-top: 11px;
   margin-left: 15px;
 }
-.c-section__title::after {
+.c-title__section::after {
   position: absolute;
   top: 80px;
   left: 15px;
@@ -278,13 +283,7 @@ input {
 .p-map {
   position: relative;
   margin-top: 50px;
-  width: 375px;
   background-color: #000000;
-}
-
-@media (min-width: 768px) {
-  .p-theme {
-    display: flex;
-  }
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
