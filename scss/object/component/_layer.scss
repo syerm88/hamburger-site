@@ -19,3 +19,15 @@
         z-index: 5;   
     }
 }
+
+@include breakpoint(pc) {
+    .c-layer {
+        position: absolute;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        background-color: rgba(#000000, 0.3);
+        z-index: 5;   
+    }
+
+}

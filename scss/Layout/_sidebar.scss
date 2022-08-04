@@ -1,0 +1,11 @@
+@use "./../foundation/variable" as *;
+
+.l-sidebar {
+    display: none;
+}
+
+@include breakpoint(pc) {
+  .l-sidebar {
+    display: block;
+  }
+}

@@ -2,13 +2,17 @@
 
 .c-link {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 2rem;
     color: $color-white;
     padding: 40px 63px 34px 62px ;
     position: relative;
     &__shop {
         position: relative;
+        padding-right: 15px;
+    }
+    &__history {
+        padding-left: 15px;
     }
     &__shop::after{
         position: absolute;
@@ -16,7 +20,7 @@
         width: 2px;
         height: 20px;
         top: 5px;
-        right: -18px;
+        right: -2px;
         display: inline-block;
         background-color: $color-white;
     } 
