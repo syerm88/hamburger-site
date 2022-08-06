@@ -1,6 +1,6 @@
 $(function () {
   $('.c-button').on('click', function () { 
-    $(this).toggleClass('open');
+    $(this).toggleClass('is-open');
     $('.l-sidebar').toggleClass('is-open'); 
   });
 });

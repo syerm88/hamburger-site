@@ -82,6 +82,8 @@ a {
   }
 }
 .c-button {
+  width: 70px;
+  height: 50px;
   display: flex;
   margin-left: auto;
   font-size: 20px;
@@ -89,6 +91,35 @@ a {
   padding-right: 16px;
   right: 0;
   font-family: "Roboto";
+  position: absolute;
+  z-index: 5;
+}
+.c-button.is-open h3 {
+  display: none;
+}
+.c-button.is-open::before { /* 共通設定 */
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px; /* 棒の幅（太さ） */
+  height: 30px; /* 棒の高さ */
+  background: #333;
+}
+.c-button.is-open::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px; /* 棒の幅（太さ） */
+  height: 30px; /* 棒の高さ */
+  background: #333;
+}
+.c-button.is-open::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.c-button.is-open::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .c-title__fv {
@@ -243,51 +274,6 @@ a {
 .c-item__menu {
   padding-left: 66px;
   line-height: 2.3;
-}
-
-.c-batsu {
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 0;
-  margin-top: 23px;
-  margin-right: 7px;
-}
-
-.c-batsu::before, .c-batsu::after { /* 共通設定 */
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px; /* 棒の幅（太さ） */
-  height: 30px; /* 棒の高さ */
-  background: #333;
-}
-
-.c-batsu::before {
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.c-batsu::after {
-  transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-.p-menu__list {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100vw;
-  height: 100vh;
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 2rem;
-  line-height: 3;
-  width: 375px;
-  background: rgb(179, 235, 235);
 }
 
 .p-seach-form {
