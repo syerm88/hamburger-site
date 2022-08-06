@@ -17,10 +17,11 @@
 @use "./object/component/button";
 @use "./object/component/title";
 @use "./object/component/text";
-@use "./object/component/section";
 @use "./object/component/link";
 @use "./object/component/copy";
 @use "./object/component/layer";
+@use "./object/component/item";
+@use "./object/component/batsu";
 //project
 //----------------------------
 @use "./object/project/form";
@@ -28,3 +29,4 @@
 @use "./object/project/fv";
 @use "./object/project/map";
 @use "./object/project/theme";
+@use "./object/project/section";

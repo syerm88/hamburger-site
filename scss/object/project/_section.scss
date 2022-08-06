@@ -1,6 +1,6 @@
 @use "./../../foundation/variable" as *;
 
-.c-section__TakeOut {
+.p-section__TakeOut {
     background-image: url(./../../../img/front-page-main02.png); 
     background-size: cover;
     height: auto;
@@ -12,7 +12,7 @@
     justify-content: space-between;
     position: relative;
 }
-.c-section__EatIn {
+.p-section__EatIn {
     background-image: url(./../../../img/front-page-main03-sp.jpg); 
     background-size: cover;
     height: auto;

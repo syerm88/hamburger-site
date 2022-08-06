@@ -1,11 +1,29 @@
 @use "./../foundation/variable" as *;
 
 .l-sidebar {
-    display: none;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  line-height: 3;
+  width: 375px;
+  background: rgb(179, 235, 235);
+  &.is-open {
+    display: block;
+  }
 }
 
+.c-title__sidebar{
+  display: none;
+}
+
+
+
+
+
 @include breakpoint(pc) {
-  .l-sidebar {
+  .l-sidebar h2 {
     display: block;
   }
 }
