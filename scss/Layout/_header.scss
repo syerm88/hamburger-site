@@ -10,10 +10,23 @@
     &__logo {
     font-size: 40px;
     font-weight: bold;
-    top: 40px;
+    padding-top: 40px;
     text-align: center;
     color: $color-gray;
     padding-bottom: 38px;
     font-family: "Roboto";
+    }
+}
+
+@include breakpoint(pc) {
+    .l-header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .l-header__logo {
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-left: 65px;
     }
 }

@@ -2,6 +2,7 @@
 
 .p-seach-form {
     display: flex;
+    padding-bottom: 40px;
 }
 .p-seach-form-keyword {
     display: flex;
@@ -27,5 +28,12 @@
     }
     .p-seach-form {
         justify-content: center;
+    }
+}
+
+@include breakpoint(pc) {
+    .p-seach-form {
+        margin-right: 21px;
+        padding-bottom: 0;
     }
 }

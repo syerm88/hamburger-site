@@ -42,3 +42,9 @@
           }
     }
 }
+
+@include breakpoint(pc) {
+  .c-button {
+    display: none;
+  }
+}
