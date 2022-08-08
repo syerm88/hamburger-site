@@ -23,7 +23,10 @@
 
 
 @include breakpoint(pc) {
-  .l-sidebar h2 {
+  .l-sidebar {
     display: block;
+    h2 {
+    display: block;
+    }grid-column: 1 / 3;
   }
 }
