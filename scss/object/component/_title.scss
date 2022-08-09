@@ -68,3 +68,11 @@
         font-weight: bold;
     }
 }
+
+
+@include breakpoint(pc) {
+    .c-title__sidebar{
+        padding-top: 82px;
+        padding-left: 46px;
+    }
+}

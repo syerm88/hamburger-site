@@ -2,12 +2,12 @@
 
 .l-sidebar {
   display: none;
-  position: absolute;
+  min-height: 2843px;
+  position: fixed;
   top: 0;
   right: 0;
   font-size: 2rem;
   line-height: 3;
-  width: 375px;
   background-color: #F2EDE9;
   &.is-open {
     display: block;
@@ -25,6 +25,7 @@
 @include breakpoint(pc) {
   .l-sidebar {
     display: block;
+    position: static;
     h2 {
     display: block;
     }grid-column: 1 / 3;
