@@ -4,6 +4,10 @@
     margin: 0 40px;
 }
 
+.c-inner__theme {
+    margin: 15px;
+}
+
 @include breakpoint(tablet) {
     .c-inner__theme {
         display: flex;

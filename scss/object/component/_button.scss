@@ -10,8 +10,8 @@
     padding-right: 16px;
     right: 0;
     font-family: "Roboto";
-    position: absolute;
-    z-index: 5;
+    position: fixed;
+    z-index: 15;
     &.is-open {
           h3 {
             display: none;

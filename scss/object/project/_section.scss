@@ -3,9 +3,7 @@
 .p-section__TakeOut {
     background-image: url(./../../../img/front-page-main02.png); 
     background-size: cover;
-    height: auto;
     width: 100%;
-    margin: 15px;
     height: 642px;
     display: flex;
     flex-direction: column;
@@ -14,11 +12,20 @@
 .p-section__EatIn {
     background-image: url(./../../../img/front-page-main03-sp.jpg); 
     background-size: cover;
-    height: auto;
     width: 100%;
-    margin: 15px;
+    margin-top: 15px;
     height: 642px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@include breakpoint(tablet) {
+    .p-section__TakeOut {
+        margin-right: 20px; 
+    }
+    .p-section__EatIn {
+        margin-top: 0;
+        margin-left: 20px;
+    }
 }
