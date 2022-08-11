@@ -1,6 +1,7 @@
 @use "./../../foundation/variable" as *;
 
 .p-section__TakeOut {
+    position: relative;
     background-image: url(./../../../img/front-page-main02.png); 
     background-size: cover;
     width: 100%;
@@ -10,6 +11,7 @@
     justify-content: space-between;
 }
 .p-section__EatIn {
+    position: relative;
     background-image: url(./../../../img/front-page-main03-sp.jpg); 
     background-size: cover;
     width: 100%;
@@ -27,5 +29,17 @@
     .p-section__EatIn {
         margin-top: 0;
         margin-left: 20px;
+    }
+}
+
+
+@include breakpoint(pc) {
+    .p-section__TakeOut {
+        height: auto;
+        margin-right: 50px; 
+    }
+    .p-section__EatIn {
+        height: auto;
+        margin-left: 50px;
     }
 }

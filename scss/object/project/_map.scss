@@ -12,3 +12,14 @@
     }
 }
 
+@include breakpoint(tablet) {
+    .p-map {
+        height: 415px;
+    }
+}
+
+@include breakpoint(pc) {
+    .p-map {
+        height: auto;
+    }
+}

@@ -1,15 +1,12 @@
 @use "./../foundation/variable" as *;
 
 .l-sidebar {
-  display: none;
   min-height: 2843px;
   position: fixed;
   top: 0;
   right: 0;
-  width: 100vw;
-  height: 100vh;
-  transform: translateX(100vw);
-  transition: all .3s linear;
+  transform: translate(375px);
+  transition: all 0.2s;
   font-size: 2rem;
   line-height: 3;
   background-color: #F2EDE9;
@@ -42,7 +39,8 @@
 
 @include breakpoint(pc) {
   .l-sidebar {
-    display: block;
+    transition: none;
+    transform: none;
     position: static;
     h2 {
     display: block;

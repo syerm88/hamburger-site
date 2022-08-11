@@ -10,8 +10,8 @@
     padding-right: 16px;
     right: 0;
     font-family: "Roboto";
-    position: fixed;
     z-index: 15;
+    position: sticky;
     &.is-open {
           h3 {
             display: none;

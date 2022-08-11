@@ -4,9 +4,6 @@
     background-color: $color-header-bg;
     z-index: 1;
 
-    &__content {       
-        height: 217px;
-    }
     &__logo {
     font-size: 40px;
     font-weight: bold;
@@ -23,6 +20,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 217px;
     }
     .l-header__logo {
         padding-bottom: 0;

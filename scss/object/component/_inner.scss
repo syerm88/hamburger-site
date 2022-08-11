@@ -11,5 +11,13 @@
 @include breakpoint(tablet) {
     .c-inner__theme {
         display: flex;
+        margin: 40px;
+    }
+}
+
+@include breakpoint(pc) {
+    .c-inner__theme {
+        height: 1196px;
+        margin: 120px 111px 134px;
     }
 }
