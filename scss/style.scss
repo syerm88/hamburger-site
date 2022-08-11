@@ -9,6 +9,7 @@
 @use "./Layout/header";
 @use "./Layout/sidebar";
 @use "./layout/footer";
+@use "./layout/grid";
 
 //object
 //component
@@ -21,7 +22,6 @@
 @use "./object/component/copy";
 @use "./object/component/layer";
 @use "./object/component/item";
-@use "./object/component/grid";
 //project
 //----------------------------
 @use "./object/project/form";
