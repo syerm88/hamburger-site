@@ -1,25 +1,33 @@
 @use "./../../foundation/variable" as *;
 
 .c-text {
-    height: auto;
     background-color: rgba(#fff, 0.8);
-    margin: 15px;
-    padding-top: 7px;
-    padding-left: 10px;
+    margin: 20px;
     &__content {
+       min-height: 66px;
+       padding: 0 12.5px 12.5px 12.5px;
        width: 100%;
        box-sizing: border-box;
    }
    &__title {
        font-size: 2.2rem;
+       padding: 7.5px 0 5.6px 12.5px;
+       font-weight: bold;
    }
    &__map {
-       position: absolute;
-       top: 130px;
+       position: relative;
        color: $color-white;
        z-index: 15;
        line-height: 2;
-       padding-right: 40px;
-       overflow: hidden;
+       padding: 40px 40px 50px 40px;
+       min-height: 356px;
     } 
+}
+
+@include breakpoint(pc) {
+    .c-text__map {
+        padding-top: 158px; 
+        padding-left: 74px;
+        width: 54%;
+    }
 }

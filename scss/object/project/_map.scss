@@ -3,23 +3,10 @@
 .p-map {
     position: relative;
     margin-top: 50px;
-    background-color: $color-black;
+    background: url(./../../../img/p-front-map.png)$color-black;
     width: 100%;
     height: auto;
-    overflow: hidden;
-    img {
-        max-width: inherit;
-    }
+    
+    
 }
 
-@include breakpoint(tablet) {
-    .p-map {
-        height: 415px;
-    }
-}
-
-@include breakpoint(pc) {
-    .p-map {
-        height: auto;
-    }
-}

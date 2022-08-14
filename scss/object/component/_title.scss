@@ -11,21 +11,21 @@
 }
 
 .c-title__map {
-    position: absolute;
+    position: relative;
     top: 10px;
     font-size: 3rem;
     color: #fff;
     font-weight: bold;
-    padding: 30px 0;
+    padding: 30px 0 30px 40px;
     z-index: 15;
     h2::after{
         position: absolute;
         content: "";
         width: 70px;
-        height: 2px;
+        height: 3px;
         background-color: $color-white;
         top: 102px;
-        left: 5px;
+        left: 40px;
     }
 }
 
@@ -64,9 +64,22 @@
     &__burger {
         padding-left: 46px;
         padding-bottom: 40px;
-        padding-top: 212px;
+        padding-top: 85px;
         font-weight: bold;
     }
+}
+
+.c-title__sidebar {
+    font-size: 3.4rem;
+}
+
+.c-title__menu__burger {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.c-title__menu {
+    font-size: 2.4rem;
+    font-weight: bold;
 }
 
 
@@ -78,4 +91,23 @@
     .c-title__fv {
         top: 231px;
     }
+    .c-title__map {
+        padding-top: 51px;
+        padding-left: 74px;
+        h2::after{
+            position: absolute;
+            content: "";
+            width: 70px;
+            height: 3px;
+            background-color: $color-white;
+            top: 190px;
+            left: 74px;
+        }
+    }
 }
+
+// @include breakpoint(pc) {
+//     .c-title__map h2::after {
+//       top: 190px;
+//     }
+// }

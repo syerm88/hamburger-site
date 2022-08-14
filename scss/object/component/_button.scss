@@ -10,39 +10,17 @@
     padding-right: 16px;
     right: 0;
     font-family: "Roboto";
-    z-index: 15;
+    z-index: 20;
     position: sticky;
     h3 {
       font-size: 2.5rem;
+      color: $color-gray;
     }
     &.is-open {
           h3 {
             display: none;
           }
-          &::before { /* 共通設定 */
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 4px; /* 棒の幅（太さ） */
-            height: 30px; /* 棒の高さ */
-            background: #333;
-          }
-          &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 4px; /* 棒の幅（太さ） */
-            height: 30px; /* 棒の高さ */
-            background: #333;
-          } 
-          &::before {
-            transform: translate(-50%,-50%) rotate(45deg);
-          }
-          &::after {
-            transform: translate(-50%,-50%) rotate(-45deg);
-          }
+          
     }
 }
 

@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -12,16 +13,23 @@ html {
 	font-size: 62.5%;
 	line-height: 1.6;
 	scroll-behavior: smooth;
-	max-width: 1900px;
+	max-width: 1990px;
+	
 }
 
 body {
-	color: #333333;
+	color: #707070;
 	font-size: 1.6rem;
 	font-family: "M PLUS 1p", "Noto Sans JP", sans-serif;
 	min-width: 375px;
 	width: 100%;
-	// overflow-x: hidden;
+	width: 100vw;
+	text-rendering: optimizeSpeed;
+	overflow-x: hidden;
+}
+
+body.is-open {
+	position: fixed;
 }
 
 img,
@@ -36,5 +44,6 @@ a {
 	text-decoration: underline;
 	text-decoration: none;
 }
+
 
 	
