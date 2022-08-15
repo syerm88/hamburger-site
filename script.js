@@ -4,6 +4,7 @@ $(function () {
     $('.l-sidebar').toggleClass('is-open');
     $('.hamburger-bg-cover').toggleClass('is-open');
     $('body').toggleClass('is-open');
+    $('.c-title__menu__burger').toggleClass('is-open');
   });
 });
 
@@ -14,7 +15,8 @@ $(window).on('resize', function() {
     $('.c-button').removeClass('is-open');
     $('.l-sidebar').removeClass('is-open');
     $('.hamburger-bg-cover').removeClass('is-open');
-    $('body').removeClass('is-open');    
+    $('body').removeClass('is-open');
+    $('.c-title__menu__burger').removeClass('is-open');    
   };
 });
 
