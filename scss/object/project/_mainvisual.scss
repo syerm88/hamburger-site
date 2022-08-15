@@ -2,8 +2,8 @@
 
 @include breakpoint(pc) {
 .p-mainvisual {
-    background-image: url(./../../../img/archive-main.jpg);
     background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(./../../../img/archive-main1.png);
     background-size: cover;
     background-position: center;
     width: 100%;

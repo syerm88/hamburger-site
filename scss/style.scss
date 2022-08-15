@@ -23,6 +23,7 @@
 @use "./object/component/copy";
 @use "./object/component/layer";
 @use "./object/component/item";
+@use "./object/component/card";
 //project
 //----------------------------
 @use "./object/project/form";
@@ -32,3 +33,4 @@
 @use "./object/project/theme";
 @use "./object/project/section";
 @use "./object/project/mainvisual";
+@use "./object/project/pagenation";

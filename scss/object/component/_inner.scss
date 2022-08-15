@@ -1,8 +1,5 @@
 @use "./../../foundation/variable" as *;
 
-// .c-inner__map {
-//     margin: 0 40px;
-// }
 
 .c-inner__theme {
     margin: 15px;
@@ -29,4 +26,8 @@
             display: flex;
         }
     }
+}
+
+.c-inner__card  {
+    padding-bottom: 30px;
 }
