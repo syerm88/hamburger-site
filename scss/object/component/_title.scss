@@ -1,16 +1,16 @@
 @use "./../../foundation/variable" as *;
 
-.c-title__fv {
-    position: absolute;
-    top: 119px;
-    font-size: 3rem;
-    font-weight: bold;
-    color: $color-white;
-    padding: left;
-    padding-left: 25px;
-}
-
-.c-title__map {
+.c-title {
+    &__fv {
+        position: absolute;
+        top: 119px;
+        font-size: 3rem;
+        font-weight: bold;
+        color: $color-white;
+        padding: left;
+        padding-left: 25px;
+    }
+    &__map {
     position: relative;
     top: 10px;
     font-size: 3rem;
@@ -26,10 +26,9 @@
         background-color: $color-white;
         top: 102px;
         left: 40px;
+        }
     }
-}
-
-.c-title__section {
+    &__section {
     font-size: 4.1rem;
     font-family: "Roboto";
     color: $color-white;
@@ -43,7 +42,30 @@
         width: 33px;
         height: 4px;
         background-color: $color-white;
-     }
+        }
+    }
+}
+
+.c-title{
+    &__sidebar{
+        display: none;
+        font-size: 3.4rem;
+    }
+}
+
+.c-title__menu {
+    padding-left: 46px;
+    padding-bottom: 40px;
+    padding-top: 34px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    &__burger {
+        padding-left: 46px;
+        padding-bottom: 40px;
+        padding-top: 85px;
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
 }
 
 @include breakpoint(tablet) {
@@ -52,62 +74,45 @@
     }
 }
 
-.c-title__sidebar{
-  display: none;
-}
-
-.c-title__menu {
-    padding-left: 46px;
-    padding-bottom: 40px;
-    padding-top: 34px;
-    font-weight: bold;
-    &__burger {
-        padding-left: 46px;
-        padding-bottom: 40px;
-        padding-top: 85px;
-        font-weight: bold;
-    }
-}
-
-.c-title__sidebar {
-    font-size: 3.4rem;
-}
-
-.c-title__menu__burger {
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-.c-title__menu {
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-
-
 @include breakpoint(pc) {
-    .c-title__sidebar{
-        padding-top: 82px;
-        padding-left: 46px;
-    }
-    .c-title__fv {
-        top: 231px;
-    }
-    .c-title__map {
-        padding-top: 51px;
-        padding-left: 74px;
-        h2::after{
-            position: absolute;
-            content: "";
-            width: 70px;
-            height: 3px;
-            background-color: $color-white;
-            top: 190px;
-            left: 74px;
+    .c-title {
+        &__sidebar{
+            padding-top: 82px;
+            padding-left: 46px;
+        }
+        &__fv {
+            top: 231px;
+        }
+        &__map {
+            padding-top: 51px;
+            padding-left: 74px;
+            h2::after{
+                position: absolute;
+                content: "";
+                width: 70px;
+                height: 3px;
+                background-color: $color-white;
+                top: 190px;
+                left: 74px;
+            }
         }
     }
 }
 
-// @include breakpoint(pc) {
-//     .c-title__map h2::after {
-//       top: 190px;
-//     }
-// }
+.c-title {
+    &__archive-main {
+        font-size: 6rem;
+        padding: 50px 0 50px 50px;
+        color: $color-white;
+        font-weight: bold;
+    }
+    &-sub__arcive-main {
+        padding-left: 20px;
+        color: $color-white;
+    }
+    &__section-figure {
+        font-size: 3.6rem;
+        padding: 60px 0 25px 63px;
+        font-weight: bold;
+    }
+}
