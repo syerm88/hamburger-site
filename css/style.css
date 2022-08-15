@@ -93,6 +93,7 @@ a {
   display: block;
   right: 0;
   overflow-y: auto;
+  padding-bottom: 100px;
 }
 .l-sidebar.is-open::before { /* 共通設定 */
   content: "";
@@ -137,6 +138,7 @@ a {
 @media (min-width: 768px) {
   .l-sidebar.is-open {
     width: 44%;
+    padding-bottom: 100px;
   }
 }
 @media (min-width: 1200px) {
@@ -148,6 +150,8 @@ a {
   }
   .l-sidebar h2 {
     display: block;
+    padding-top: 58px;
+    padding-bottom: 27px;
   }
 }
 .l-footer {
@@ -253,7 +257,6 @@ a {
   padding: left;
   padding-left: 25px;
 }
-
 .c-title__map {
   position: relative;
   top: 10px;
@@ -272,7 +275,6 @@ a {
   top: 102px;
   left: 40px;
 }
-
 .c-title__section {
   font-size: 4.1rem;
   font-family: "Roboto";
@@ -290,13 +292,9 @@ a {
   background-color: #ffffff;
 }
 
-@media (min-width: 768px) {
-  .p-fv__title {
-    display: none;
-  }
-}
 .c-title__sidebar {
   display: none;
+  font-size: 3.4rem;
 }
 
 .c-title__menu {
@@ -304,28 +302,21 @@ a {
   padding-bottom: 40px;
   padding-top: 34px;
   font-weight: bold;
+  font-size: 2.4rem;
 }
 .c-title__menu__burger {
   padding-left: 46px;
   padding-bottom: 40px;
   padding-top: 85px;
   font-weight: bold;
-}
-
-.c-title__sidebar {
-  font-size: 3.4rem;
-}
-
-.c-title__menu__burger {
   font-size: 2.4rem;
-  font-weight: bold;
 }
 
-.c-title__menu {
-  font-size: 2.4rem;
-  font-weight: bold;
+@media (min-width: 768px) {
+  .p-fv__title {
+    display: none;
+  }
 }
-
 @media (min-width: 1200px) {
   .c-title__sidebar {
     padding-top: 82px;
@@ -348,6 +339,22 @@ a {
     left: 74px;
   }
 }
+.c-title__archive-main {
+  font-size: 6rem;
+  padding: 50px 0 50px 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.c-title-sub__arcive-main {
+  padding-left: 20px;
+  color: #ffffff;
+}
+.c-title__section-figure {
+  font-size: 3.6rem;
+  padding: 60px 0 25px 63px;
+  font-weight: bold;
+}
+
 .c-text {
   background-color: rgba(255, 255, 255, 0.8);
   margin: 20px;
@@ -370,6 +377,10 @@ a {
   line-height: 2;
   padding: 40px 40px 50px 40px;
   min-height: 356px;
+}
+.c-text__figure {
+  font-size: 1.6rem;
+  padding: 0 63px 70px 63px;
 }
 
 @media (min-width: 1200px) {
@@ -576,6 +587,19 @@ input {
   .p-section__EatIn {
     height: auto;
     margin-left: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .p-mainvisual {
+    background-image: url(./../../../img/archive-main.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 239px;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -13,7 +13,8 @@ $(window).on('resize', function() {
   if($windowWidth > 1200){
     $('.c-button').removeClass('is-open');
     $('.l-sidebar').removeClass('is-open');
-    $('.hamburger-bg-cover').removeClass('is-open');    
+    $('.hamburger-bg-cover').removeClass('is-open');
+    $('body').removeClass('is-open');    
   };
 });
 
