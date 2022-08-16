@@ -235,9 +235,15 @@ a {
 .c-inner__card img {
   -o-object-fit: cover;
      object-fit: cover;
-  min-width: 50%;
 }
 
+@media (min-width: 768px) {
+  .c-inner__card img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    min-width: 50%;
+  }
+}
 .c-button {
   width: 70px;
   height: 50px;

@@ -38,6 +38,11 @@
 
 .c-inner__card img {
     object-fit: cover;
-    min-width: 50%;
 }
 
+@include breakpoint(tablet) {
+    .c-inner__card img {
+        object-fit: cover;
+        min-width: 50%;
+    }   
+}
