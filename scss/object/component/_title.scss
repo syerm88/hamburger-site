@@ -104,16 +104,19 @@
 
 .c-title {
     &__archive-main {
-        font-size: 6rem;
-        padding: 50px 0 50px 50px;
+        font-size: 3.6rem;
+        padding: 102px 0 0 37px;
         color: $color-white;
         font-weight: bold;
+        font-family: "Roboto";
+
     }
     &-sub__arcive-main {
-        padding-left: 20px;
+        padding-left: 37px;
         color: $color-white;
     }
     &__section-figure {
+        color: $color-darkbrown;
         font-size: 3.6rem;
         padding-bottom: 25px;
         font-weight: bold;
@@ -122,4 +125,16 @@
 
 .c-title__menu__burger.is-open {
     padding-top: 250px;
+}
+
+@include breakpoint (tablet) {
+    .c-title {
+        &__archive-main {
+            font-size: 6rem;
+            padding: 50px 30px 50px 50px;
+        }
+        &-sub__arcive-main {
+            padding-left: 20px;
+        }
+    }
 }

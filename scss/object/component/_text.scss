@@ -23,15 +23,21 @@
        min-height: 356px;
     } 
     &__figure {
+        color: $color-darkbrown;
         font-size: 1.6rem;
-        padding-bottom: 70px;
+        padding-bottom: 19px;
     }
 }
 
 @include breakpoint(pc) {
-    .c-text__map {
-        padding-top: 158px; 
-        padding-left: 74px;
-        width: 54%;
+    .c-text{
+        &__map {
+            padding-top: 158px; 
+            padding-left: 74px;
+            width: 54%;
+        }
+        &__figure {  
+            padding-bottom: 70px;
+        }
     }
 }
