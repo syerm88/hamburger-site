@@ -1,6 +1,28 @@
 @use "./../../foundation/variable" as *;
 
-.c-item__menu {
+
+//single page
+//-----------------------------
+.c-item {
+    &__menu {
     padding-left: 66px;
     line-height: 2.3;
+    }
+    &__code {
+    padding: 50px 31.2px;
+    background-color: $color-lightgray;
+    margin-bottom: 50px;
+    }
+    &__table {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    &__table th {
+        padding: 28px 0 27px 30px;
+        width: 31.6%;
+    }
+    &__table td {
+        padding: 28px 0 27px 30px;
+        width: 68.4%;
+    }
 }

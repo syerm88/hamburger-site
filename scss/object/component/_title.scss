@@ -1,5 +1,8 @@
 @use "./../../foundation/variable" as *;
 
+
+//top page
+//-----------------------------
 .c-title {
     &__fv {
         position: absolute;
@@ -46,7 +49,7 @@
     }
 }
 
-.c-title{
+.c-title {
     &__sidebar{
         display: none;
         font-size: 3.4rem;
@@ -60,16 +63,17 @@
     padding-top: 34px;
     font-weight: bold;
     font-size: 2.4rem;
+    h2 {
+        font-weight: bold;
+    }
     &__burger {
         padding-left: 46px;
         padding-bottom: 40px;
         font-weight: bold;
         font-size: 2.4rem;
     }
-    h2 {
-        font-weight: bold;
-    }
 }
+
 
 @include breakpoint(tablet) {
     .p-fv__title {
@@ -102,6 +106,8 @@
     }
 }
 
+//archive page
+//-----------------------------
 .c-title {
     &__archive-main {
         font-size: 3.6rem;
@@ -131,10 +137,46 @@
     .c-title {
         &__archive-main {
             font-size: 6rem;
-            padding: 50px 30px 50px 50px;
+            padding: 50px 0 50px 50px;
         }
         &-sub__arcive-main {
             padding-left: 20px;
         }
+    }
+}
+
+
+//single page
+//-----------------------------
+.c-title__single-main {
+    position: absolute;
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: $color-white;
+    padding-left: 54px;
+}
+
+.c-title{
+    &__h2 {
+        font-size: 2.3rem;
+        font-weight: bold;
+        color: $color-darkbrown;
+        padding-bottom: 60px;
+    }
+    &__h3 {
+        padding-bottom: 60px;
+        color: $color-darkbrown;
+    }
+    &__h4 {
+        padding-bottom: 60px;
+        color: $color-darkbrown;
+    }
+    &__h5 {
+        padding-bottom: 60px;
+        color: $color-darkbrown;
+    }
+    &__h6 {
+        padding-bottom: 60px;
+        color: $color-darkbrown;
     }
 }

@@ -1,24 +1,44 @@
 @use "./../../foundation/variable" as *;
 
-
-.c-inner__theme {
-    margin: 15px;
+// top page
+//-------------------------------
+.c-inner {
+    &__theme {
+        margin: 15px;
+    }
+    &__text {
+        color: #3C2A10;
+    }
 }
-.c-inner__text {
-    color: #3C2A10;
-}
 
+// archive page
+//-------------------------------
+.c-inner__card  {
+    padding-bottom: 30px;
+    &__card img {
+        object-fit: cover;
+    }
+    &-button {
+        text-align: center;
+    }
+}
 
 @include breakpoint(tablet) {
-    .c-inner__theme {
+    .c-inner {
+        &__theme {
         display: flex;
         margin: 40px;
+       }
+        &__card {
+            display: flex;
+            width: 100%;
+        }
+        &__card img {
+            object-fit: cover;
+            min-width: 50%;
+        }   
     }
-    .c-inner__card {
-        display: flex;
-        width: 100%;
-    }
-}
+}  
 
 @include breakpoint(pc) {
     .c-inner {
@@ -32,17 +52,4 @@
     }
 }
 
-.c-inner__card  {
-    padding-bottom: 30px;
-}
 
-.c-inner__card img {
-    object-fit: cover;
-}
-
-@include breakpoint(tablet) {
-    .c-inner__card img {
-        object-fit: cover;
-        min-width: 50%;
-    }   
-}

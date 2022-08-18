@@ -1,5 +1,8 @@
 @use "./../../foundation/variable" as *;
 
+
+//top page
+//-----------------------------
 .p-section__TakeOut {
     position: relative;
     background-image: url(./../../../img/front-page-main02.png); 
@@ -34,7 +37,6 @@
     }
 }
 
-
 @include breakpoint(pc) {
     .p-section__TakeOut {
         height: auto;
@@ -46,7 +48,8 @@
     }
 }
 
-
+//archive page
+//-----------------------------
 .p-section__figure {
     padding: 30px 19px 30px 22px
 }
@@ -58,5 +61,47 @@
 @include breakpoint(pc) {
     .p-section__figure {
         padding: 62px;
+    }
+}
+
+//single page
+//-----------------------------
+.p-section__text {
+    border: 1px solid;
+    padding: 50px 60px 0 50px;
+    margin-bottom: 60px;
+    &-quote {
+        padding: 60px 0 50px 0;
+    }
+}
+
+.p-section{
+    &__list{
+        font-size: 1.6rem;
+    }
+    &__list ol {
+        padding-left: 94px;
+        padding-bottom: 20px;
+        list-style: decimal;
+    }
+    &__list ol:nth-child( 2 ) {
+        padding-left: 105px;
+        text-decoration: unset;
+    }  
+    &__list ol:nth-child( 3 ) {
+        padding-bottom: 60px;
+    }
+}
+
+.p-section{
+    &__list ul {
+        padding-left: 94px;
+        padding-bottom: 20px;
+    }
+    &__list ul:nth-child( 5 ) {
+        padding-left: 105px;
+    }
+    &__list ul:nth-child( 6 ) {
+        padding-bottom: 60px;
     }
 }

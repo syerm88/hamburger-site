@@ -1,5 +1,8 @@
 @use "./../../foundation/variable" as *;
 
+
+//top page
+//-----------------------------
 .c-text {
     background-color: rgba(#fff, 0.8);
     margin: 20px;
@@ -40,4 +43,19 @@
             padding-bottom: 70px;
         }
     }
+}
+
+//archive page
+//-----------------------------
+.c-text{
+    &__h2 {
+        padding-bottom: 60px;
+        color: $color-darkbrown;
+    }
+}
+
+
+
+.c-text__single-menu {
+    min-height: 191px;
 }

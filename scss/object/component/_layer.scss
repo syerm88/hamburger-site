@@ -1,5 +1,8 @@
 @use "./../../foundation/variable" as *;
 
+
+//top page
+//-----------------------------
 .c-layer{
     position: absolute;
     top: 0;
@@ -29,5 +32,4 @@
         background-color: rgba(#000000, 0.3);
         z-index: 5;   
     }
-
 }

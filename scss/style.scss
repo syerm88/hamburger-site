@@ -24,6 +24,7 @@
 @use "./object/component/layer";
 @use "./object/component/item";
 @use "./object/component/card";
+@use "./object/component/image";
 //project
 //----------------------------
 @use "./object/project/form";
@@ -34,3 +35,4 @@
 @use "./object/project/section";
 @use "./object/project/mainvisual";
 @use "./object/project/pagination";
+@use "./object/project/wrapper";

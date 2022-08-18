@@ -1,0 +1,25 @@
+@use "./../../foundation/variable" as *;
+
+
+//single page
+//-------------------
+.c-image {
+    padding-bottom: 60px;
+    &__single-menu {
+        display: flex;
+        padding-bottom: 60px;
+    }
+    &__single-burger {
+        width: 43%;
+        height: 72%;
+    }
+    &__single-burger-center {
+        width: 43%;
+        height: 72%;
+        margin: 0 auto;
+    }
+}
+
+.c-image__single-menu {
+    min-height: 358px;
+}
