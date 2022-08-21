@@ -50,3 +50,22 @@
     margin-bottom: 60px;
   }
 }
+
+//page
+//-----------------------------
+.c-button__page {
+  width: 429px;
+  height: 104px;
+  border: 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(242, 237, 233);
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+@include breakpoint(tablet) {
+  .c-button__page {
+    margin-bottom: 60px;
+  }
+}

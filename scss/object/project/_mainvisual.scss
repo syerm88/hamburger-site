@@ -45,3 +45,24 @@
         object-fit: cover;
     }
  }
+
+ 
+// page
+//-----------------------------
+
+.p-mainvisual__page {
+    position: relative;
+    display: flex;
+    align-items: center;
+    img {
+        height: 225px;
+        object-fit: cover;
+    }
+ }
+
+ @include breakpoint(tablet) {
+    .p-mainvisual__page img {
+        height: 500px;
+        object-fit: cover;
+    }
+ }

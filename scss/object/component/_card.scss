@@ -9,10 +9,12 @@
         color: $color-white;
     }
     &__title {
+        font-weight: bold;
         font-size: 2rem;
         padding: 31px 0 24px 17px;
     }
     &__title-sub {
+        font-weight: bold;
         font-size: 1.6rem;
         padding: 0 0 10px 17px;
     }
@@ -20,7 +22,7 @@
         padding: 0 73px 40px 17px;
     }
     &__button {
-        color: $color-black;
+        color: $color-gray;
         background-color: $color-white;
         border: 1px solid;
         border-radius: 40px;
@@ -31,20 +33,23 @@
     }
 }
 
-@include breakpoint(pc) {
+@include breakpoint(tablet) {
     .c-card {
         &__title {
             font-size: 3.6rem;
             padding: 53px 0 47px 39px;
+            font-weight: bold;
         }
         &__title-sub {
             font-size: 2.4rem;
             padding: 0 0 17px 39px;
+            font-weight: bold;
         }
         &__text {
             padding: 0 65px 60px 39px;
         }
         &__button {
+            font-size: 1.6rem;
             text-align: center;
             display: flex;
             margin: auto;
@@ -54,8 +59,9 @@
             padding-left: 100px;
             margin-bottom: 60px;
         }
-    }
+     }
 }
+
     
     
     

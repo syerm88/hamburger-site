@@ -145,6 +145,34 @@
     }
 }
 
+//archiveseach page
+//-----------------------------
+.c-title {
+    &__archiveseach-main {
+        font-size: 3.6rem;
+        padding: 102px 0 0 37px;
+        color: $color-white;
+        font-weight: bold;
+        font-family: "Roboto";
+
+    }
+    &-sub__arciveseach-main {
+        padding-left: 37px;
+        color: $color-white;
+    }
+}
+
+@include breakpoint (tablet) {
+    .c-title {
+        &__archiveseach-main {
+            font-size: 6rem;
+            padding: 50px 0 50px 50px;
+        }
+        &-sub__arciveseach-main {
+            padding-left: 20px;
+        }
+    }
+}
 
 //single page
 //-----------------------------
@@ -154,7 +182,7 @@
         font-size: 3.8rem;
         color: $color-white;
         font-weight: bold;
-        padding-left: 54px;
+        padding-left: 26px;
     }
     &__h2 {
         font-size: 2.8rem;
@@ -190,6 +218,9 @@
 
 @include breakpoint(tablet) {
     .c-title{
+        &__single-main {
+            padding-left: 86px;
+        }
         &__h2 {
             padding-bottom: 60px;
         }
@@ -205,7 +236,7 @@
         &__h6 {
             padding-bottom: 60px;
         }
-    } 
+    }
 }
 
 @include breakpoint(pc) {
@@ -215,6 +246,26 @@
         }
         &__h4 {
             padding-bottom: 60px;
+        }
+    }
+}
+
+//page
+//-----------------------------
+.c-title {
+    &__page-main {
+        position: absolute;
+        font-size: 3.8rem;
+        color: $color-white;
+        font-weight: bold;
+        padding-left: 45px;
+    }
+}
+
+@include breakpoint(tablet) {
+    .c-title {
+        &__page-main {
+            padding-left: 86px;
         }
     }
 }

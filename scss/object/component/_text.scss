@@ -109,3 +109,48 @@
         }
     }
 }
+
+
+//page
+//-----------------------------
+.c-text {
+    &__page-menu {
+        padding-left: 10px;
+        height: 176px;
+        overflow: hidden;
+    }
+    &__page-menu-reverse {
+        padding-left: 10px;
+        height: 176px;
+        overflow: hidden;
+    }
+    &__bold {
+        font-weight: bold;
+    }
+}
+
+@include breakpoint(tablet) {
+    .c-text__page {
+        &-menu {
+        padding-left: 21px;
+        height: auto;
+        overflow: inherit;
+        }
+        &-menu-reverse {
+            padding-right: 21px;
+            height: auto;
+            overflow: inherit;
+        }
+    }
+}
+
+@include breakpoint(pc) {
+    .c-text {
+        &__page-menu {
+        overflow: inherit;
+        }
+        &__page-menu-reverse {
+            overflow: inherit;
+        }
+    }
+}
