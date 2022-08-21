@@ -19,6 +19,12 @@
     margin-right: 10px;
     color: $color-gray;
     background-color: $color-white;
+    input.seach {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+    }
 }
 .fa-size {
     font-size: 3rem;

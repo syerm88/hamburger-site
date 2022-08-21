@@ -43,8 +43,26 @@
 //single page
 //------------------------------
 .l-glid__image {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        margin: 60px 0;
+ }
+    
+.l-glid__image {
+    @include breakpoint(tablet) {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        margin: 60px 0;
+    }
+}
+
+.l-glid__image {
+    @include breakpoint(pc) {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 60px 0;
+   }
 }

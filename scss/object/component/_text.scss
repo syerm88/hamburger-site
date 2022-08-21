@@ -47,15 +47,65 @@
 
 //archive page
 //-----------------------------
-.c-text{
-    &__h2 {
-        padding-bottom: 60px;
-        color: $color-darkbrown;
+.c-text__h2 {
+    padding-bottom: 30px;
+    color: $color-darkbrown;
+}
+
+@include breakpoint(tablet) {
+    .c-text{
+        &__h2 {
+            padding-bottom: 60px;
+        }
+        &__single-menu {
+            min-height: 191px;
+        }
+        &__bold {
+            font-weight: bold;
+        }
     }
 }
 
+//single page
+//-----------------------------
+.c-text {
+    &__single-menu {
+        padding-left: 10px;
+        height: 176px;
+        overflow: hidden;
+    }
+    &__single-menu-reverse {
+        padding-left: 10px;
+        height: 176px;
+        overflow: hidden;
+    }
+    &__bold {
+        font-weight: bold;
+    }
+}
 
+@include breakpoint(tablet) {
+    .c-text__single {
+        &-menu {
+        padding-left: 21px;
+        height: auto;
+        overflow: inherit;
+        }
+        &-menu-reverse {
+            padding-right: 21px;
+            height: auto;
+            overflow: inherit;
+        }
+    }
+}
 
-.c-text__single-menu {
-    min-height: 191px;
+@include breakpoint(pc) {
+    .c-text {
+        &__single-menu {
+        overflow: inherit;
+        }
+        &__single-menu-reverse {
+            overflow: inherit;
+        }
+    }
 }

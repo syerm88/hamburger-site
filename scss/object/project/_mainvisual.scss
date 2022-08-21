@@ -13,12 +13,6 @@
     align-items: center;    
    }
 
- .p-mainvisual__single {
-    position: relative;
-    display: flex;
-    align-items: center;
- }
-
 @include breakpoint(tablet) {
     .p-mainvisual {
         display: flex;
@@ -31,3 +25,23 @@
         height: 239px;
     }
 }
+
+//single page
+//-----------------------------
+
+.p-mainvisual__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    img {
+        height: 225px;
+        object-fit: cover;
+    }
+ }
+
+ @include breakpoint(tablet) {
+    .p-mainvisual__single img {
+        height: 500px;
+        object-fit: cover;
+    }
+ }
