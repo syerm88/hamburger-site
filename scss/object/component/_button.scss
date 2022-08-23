@@ -15,12 +15,12 @@
     font-family: "Roboto";
     z-index: 20;
     position: sticky;
-    h3 {
+    span {
       font-size: 2.5rem;
       color: $color-gray;
     }
     &.is-open {
-        h3 {
+        span {
           display: none;
         }     
     }
