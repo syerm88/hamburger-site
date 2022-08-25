@@ -26,10 +26,23 @@
         width: 100%;
     }
 }
-.fa-size {
-    font-size: 3rem;
-    padding: 10px;
-    color: $color-gray;
+
+.search_box {
+    display: inline-block; 
+    position: relative;    
+    &::before {
+        content: "";           
+        width: 24px;          
+        height: 24px;         
+        background: url(/img/seach.png) no-repeat center center / auto 100%; 
+        display: inline-block; 
+        position: absolute;    
+        top: 11px;              
+        left: 36px;             
+    }
+    input {
+        padding: 3px 0 3px 3em; 
+    }
 }
 
 @include breakpoint(tablet) {

@@ -340,15 +340,6 @@ a {
   padding: 30px 0 30px 40px;
   z-index: 15;
 }
-.c-title__map h2::after {
-  position: absolute;
-  content: "";
-  width: 70px;
-  height: 3px;
-  background-color: #ffffff;
-  top: 102px;
-  left: 40px;
-}
 .c-title__section {
   font-size: 4.1rem;
   font-family: "Roboto";
@@ -922,10 +913,22 @@ a {
   width: 100%;
 }
 
-.fa-size {
-  font-size: 3rem;
-  padding: 10px;
-  color: #707070;
+.search_box {
+  display: inline-block;
+  position: relative;
+}
+.search_box::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(/img/seach.png) no-repeat center center/auto 100%;
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 36px;
+}
+.search_box input {
+  padding: 3px 0 3px 3em;
 }
 
 @media (min-width: 768px) {
@@ -988,7 +991,27 @@ input {
   width: 100%;
   height: auto;
 }
+.p-map h2::after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 3px;
+  background-color: #ffffff;
+  top: 102px;
+  left: 40px;
+}
 
+@media (min-width: 1200px) {
+  .p-map h2::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #ffffff;
+    top: 190px;
+    left: 74px;
+  }
+}
 .p-section__TakeOut {
   position: relative;
   background-image: url(./../../../img/front-page-main02.png);

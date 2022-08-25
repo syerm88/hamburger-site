@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <script src="https://kit.fontawesome.com/5bdd04d813.js" crossorigin="anonymous"></script>
     <title>Hamburger</title>
 </head>
@@ -22,57 +23,53 @@
         <div class="l-grid__header">
             <header class="l-header">
                 <div class="l-header__content">
-                    <button class="c-button"><h3>Menu</h3></button>
-                    <div class="l-header__logo">
-                        <h1>Hamburger</h1>
-                    </div>    
-                    <div class="p-seach-form">
-                    <div class="p-seach-form-keyword">
-                        <i class="fa-brands fa-sistrix fa-size"></i>
-                        <form action="#" method="post">
-                            <input type="text">
-                    </div>
-                    <div class="p-button__seach">
-                            <input type="submit" name="submit" value="検索">
-                        </form>
-                    </div>
-                    </div>
+                    <button class="c-button">
+                        <span>Menu</span>
+                    </button>
+                        <h1 class="l-header__logo">Hamburger</h1>
+                    <form class="p-seach-form" action="#" method="post">
+                        <span class="search_box">
+                            <input class="p-seach-form-keyword" type="text">
+                        </span>
+                        <input class="p-button__seach" type="submit" name="submit" value="検索">
+                    </form>
                 </div>
             </header>
-        </div>
+        </div>  
 <!-- sidebar -->
-        <div class="l-grid__sidebar">
-            <aside class="l-sidebar">
-                <h2 class="c-title__sidebar">Menu</h2>
-                <ul class="p-side__menu">
-                    <h3 class="c-title__menu__burger">バーガー</h3>
-                    <li class="c-item__menu">ハンバーガー</li>
-                    <li class="c-item__menu">チーズバーガー</li>
-                    <li class="c-item__menu">テリヤキバーガー</li>
-                    <li class="c-item__menu">アボカドバーガー</li>
-                    <li class="c-item__menu">フィッシュバーガー</li>
-                    <li class="c-item__menu">ベーコンバーガー</li>
-                    <li class="c-item__menu">チキンバーガー</li>
-                </ul>
-                <ul class="p-side__menu">
-                    <h3 class="c-title__menu">サイド</h3>
-                    <li class="c-item__menu">ポテト</li>
-                    <li class="c-item__menu">サラダ</li>
-                    <li class="c-item__menu">ナゲット</li>
-                    <li class="c-item__menu">コーン</li>
-                </ul>
-                <ul class="p-side__menu">
-                    <h3 class="c-title__menu">ドリンク</h3>
-                    <li class="c-item__menu">コーラ</li>
-                    <li class="c-item__menu">ファンタ</li>
-                    <li class="c-item__menu">オレンジ</li>
-                    <li class="c-item__menu">アップル</li>
-                    <li class="c-item__menu">紅茶 (Ice/Hot)</li>
-                    <li class="c-item__menu">コーヒー (Ice/Hot)</li>
-                </ul>
-            </aside>
-            <div class="hamburger-bg-cover"></div>
-        </div>
+       <!-- sidebar -->
+       <div class="l-grid__sidebar">
+        <aside class="l-sidebar">
+            <h2 class="c-title__sidebar">Menu</h2>
+            <ul class="p-side__menu">
+                <li><h3 class="c-title__menu__burger">バーガー</h3></li>
+                <li class="c-item__menu">ハンバーガー</li>
+                <li class="c-item__menu">チーズバーガー</li>
+                <li class="c-item__menu">テリヤキバーガー</li>
+                <li class="c-item__menu">アボカドバーガー</li>
+                <li class="c-item__menu">フィッシュバーガー</li>
+                <li class="c-item__menu">ベーコンバーガー</li>
+                <li class="c-item__menu">チキンバーガー</li>
+            </ul>
+            <ul class="p-side__menu">
+                <li><h3 class="c-title__menu">サイド</h3></li>
+                <li class="c-item__menu">ポテト</li>
+                <li class="c-item__menu">サラダ</li>
+                <li class="c-item__menu">ナゲット</li>
+                <li class="c-item__menu">コーン</li>
+            </ul>
+            <ul class="p-side__menu">
+                <li><h3 class="c-title__menu">ドリンク</h3></li>
+                <li class="c-item__menu">コーラ</li>
+                <li class="c-item__menu">ファンタ</li>
+                <li class="c-item__menu">オレンジ</li>
+                <li class="c-item__menu">アップル</li>
+                <li class="c-item__menu">紅茶 (Ice/Hot)</li>
+                <li class="c-item__menu">コーヒー (Ice/Hot)</li>
+            </ul>
+        </aside>
+        <div class="l-sidebar-bg-cover"></div>
+    </div>
 <!-- main -->
         <div class="l-grid__main">
             <main class="l-main">
@@ -181,21 +178,20 @@
                     </div>
                     
  <!-- <footer> -->
-        <div class="l-grid__footer">
-            <footer class="l-footer">
-                <div class="c-link">
-                    <div class="c-link__shop">ショップ情報</div>
-                    <div class="c-link__history">ヒストリー</div>
-                    </div>
-                    <div class="c-copy">
-                    <p>copyright: Raise Tech</p>
-                </div>      
-            </footer>
-        </div>
-    </div>    
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
-            <script src="/js/script.js"></script>     
+    <div class="l-grid__footer">
+        <footer class="l-footer">
+            <ul class="c-link">
+                <li class="c-link__shop">ショップ情報</li>
+                <li class="c-link__history">ヒストリー</li>
+            </ul>
+            <p class="c-copy">
+                <small>copyright: Raise Tech</small>
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</div>
 </body>
 </html>
