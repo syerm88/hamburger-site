@@ -16,13 +16,16 @@
     &__table {
         width: 100%;
         margin-bottom: 30px;
+        border: 1px solid;
     }
     &__table th {
+        border: 1px solid;
         padding: 28px 0 27px 30px;
         width: 31.6%;
         font-weight: inherit;
     }
     &__table td {
+        border: 1px solid;
         padding: 28px 0 27px 30px;
         width: 68.4%;
     }
