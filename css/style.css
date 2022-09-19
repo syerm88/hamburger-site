@@ -639,7 +639,6 @@ th {
 }
 @media (min-width: 1200px) {
   .c-inner__theme {
-    height: 1196px;
     margin: 75px 69px 83px;
   }
   .c-inner__card {
